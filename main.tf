@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "5.37.0"
+      version = "~>5"
     }
   }
 }
@@ -361,7 +361,7 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "batch4pmdevopswithaws202477"  
+  bucket = "batch1pmdevopswithaws202487"  
 
   acl    = "private"  
   versioning {
